@@ -1,0 +1,361 @@
+"""
+-------------------------------------------------------
+[Testing]
+-------------------------------------------------------
+Author:  Carlos Henrique Alcoba Pinto
+ID:      169044230
+Email:   alco4230@mylaurier.ca
+__updated__ = "2023-05-16"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+Testing Food.origins: 
+ 0 Canadian
+ 1 Chinese
+ 2 Indian
+ 3 Ethiopian
+ 4 Mexican
+ 5 Greek
+ 6 Japanese
+ 7 Italian
+ 8 American
+ 9 Scottish
+10 New Zealand
+11 English
+
+-------------------------------------------------------
+t02
+Testing __str__ method:
+Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Carlories:  246
+-------------------------------------------------------
+t03
+Name: Poutine
+Origin
+ 0 Canadian
+ 1 Chinese
+ 2 Indian
+ 3 Ethiopian
+ 4 Mexican
+ 5 Greek
+ 6 Japanese
+ 7 Italian
+ 8 American
+ 9 Scottish
+10 New Zealand
+11 English
+
+Origin: 0
+Vegetarian (Y/N):N
+Calories: 300
+
+Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Carlories:  300
+
+-------------------------------------------------------
+t04
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Carlories:  260
+-------------------------------------------------------
+t05
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Carlories:  135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Carlories:  490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Carlories:  272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Carlories:  138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Carlories:  260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Carlories:  600
+
+Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: False
+Carlories:  7500
+
+Name:       Turducken
+Origin:     American
+Vegetarian: False
+Carlories:  12240
+
+Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Carlories:  46
+
+Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Carlories:  150
+
+Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Carlories:  212
+
+Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: False
+Carlories:  199
+
+Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Carlories:  0
+
+Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Carlories:  229
+
+Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Carlories:  850
+
+Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Carlories:  140
+
+Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Carlories:  920
+
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Carlories:  800
+
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Carlories:  143
+
+Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Carlories:  226
+
+Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Carlories:  251
+
+Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Carlories:  231
+
+Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Carlories:  516
+
+Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Carlories:  710
+
+Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Carlories:  200
+
+Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Carlories:  185
+
+Name:       Fettuccine
+Origin:     Italian
+Vegetarian: False
+Carlories:  266
+
+Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: False
+Carlories:  233
+
+Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Carlories:  502
+
+Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Carlories:  272
+
+Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Carlories:  106
+
+Name:       Fricot
+Origin:     Canadian
+Vegetarian: False
+Carlories:  360
+
+Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Carlories:  956
+
+Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: False
+Carlories:  511
+
+Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Carlories:  246
+
+Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Carlories:  186
+
+Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Carlories:  425
+
+Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: False
+Carlories:  713
+
+Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: False
+Carlories:  167
+
+Name:       Panzerotti
+Origin:     Italian
+Vegetarian: False
+Carlories:  770
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Carlories:  200
+
+Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Carlories:  178
+
+Name:       Chicken Wings
+Origin:     American
+Vegetarian: False
+Carlories:  298
+
+
+-------------------------------------------------------
+t06
+
+-------------------------------------------------------
+t07
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Carlories:  138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Carlories:  260
+
+Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Carlories:  150
+
+Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Carlories:  212
+
+Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Carlories:  0
+
+Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Carlories:  140
+
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Carlories:  143
+
+Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Carlories:  185
+
+Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Carlories:  502
+
+Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Carlories:  272
+
+Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Carlories:  106
+
+Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Carlories:  956
+
+Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Carlories:  186
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Carlories:  200
+-------------------------------------------------------
+-------------------------------------------------------
+
+-------------------------------------------------------

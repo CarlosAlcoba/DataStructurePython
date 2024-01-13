@@ -1,0 +1,100 @@
+"""
+------------------------------------------------------------------------
+CP164 Assignment 05, Testing
+------------------------------------------------------------------------
+Author: Carlos Henrique Alcoba Pinto
+ID:     169044230
+Email:   alco4230@mylaurier.ca
+__updated__ = "2023-06-29"
+------------------------------------------------------------------------
+"""
+------------------------------------------------------------------------
+t01
+Testing Queue is empty: 
+True
+
+Testing Queue is Full: 
+False
+
+Length of queue: 
+0
+
+Length of queue: 
+1
+
+Removed Node: 
+3
+
+Testing Queue peek: 
+6
+
+Printing queue2: 
+6
+9
+Printing target1: 
+6
+
+Printing target2: 
+9
+------------------------------------------------------------------------
+t02
+Testing Queue is empty: 
+True
+
+Length of queue: 
+0
+
+Length of queue: 
+1
+
+Removed Node: 
+3
+
+Testing priority Queue peek: 
+6
+
+Printing q2: 
+6
+9
+
+Printing target1: 
+6
+
+Printing target2: 
+9
+
+Printing target1: 
+3
+
+Printing target2: 
+6
+9
+12
+
+------------------------------------------------------------------------
+t03
+Testing Queue is empty: 
+True
+
+Testing Length of q: 
+2
+
+Front value: 
+3
+
+Rear value: 
+6
+
+Value Removed: 
+3
+
+Value Removed: 
+6
+
+Values in q: 
+12
+6
+9
+3
+
+-------------------------------------------------------------------------

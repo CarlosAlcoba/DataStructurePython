@@ -1,0 +1,72 @@
+"""
+-------------------------------------------------------
+[program description]
+-------------------------------------------------------
+Author:  Carlos Henrique Alcoba Pinto
+ID:      169044230
+Email:   alco4230@mylaurier.ca
+__updated__ = "2023-05-25"
+-------------------------------------------------------
+"""
+------------------------------------------------------------------------
+t01
+Empty:True
+Insert method: 3
+Empty:False
+------------------------------------------------------------------------
+t02
+Empty:True
+Insert method: 3
+Empty:False
+Peek method: 3
+Remove method: 3
+------------------------------------------------------------------------
+t03
+Q:[11, 22, 33, 44]
+Array:[]
+Testing Queue to array
+Q:[]
+Array:[11, 22, 33, 44]
+Testing Array to queue
+Q:[11, 22, 33, 44]
+Array:[]
+Testing queue test method
+Testing for is_empty method: True
+Testing for insert method
+Testing for is_empty method: False
+Testing for peek method: 1
+Testing for remove method:1
+Testing for len method: 2
+------------------------------------------------------------------------
+t04
+Empty:True
+Insert method: 3
+Empty:False
+Peek method: 3
+------------------------------------------------------------------------
+t05
+Empty:True
+Insert method: 3
+Empty:False
+Peek method: 3
+Remove method: 3
+------------------------------------------------------------------------
+t06
+Q:[]
+Array:[<Food.Food object at 0x0000017264057C70>, <Food.Food object at 0x0000017264057FA0>, <Food.Food object at 0x00000172643FC040>, <Food.Food object at 0x00000172643FC0A0>, <Food.Food object at 0x00000172643FC100>, <Food.Food object at 0x00000172643FC160>, <Food.Food object at 0x00000172643FC1C0>, <Food.Food object at 0x00000172643FC220>, <Food.Food object at 0x00000172643FC280>, <Food.Food object at 0x00000172643FC2E0>, <Food.Food object at 0x00000172643FC340>, <Food.Food object at 0x00000172643FC3A0>, <Food.Food object at 0x00000172643FC400>, <Food.Food object at 0x00000172643FC460>, <Food.Food object at 0x00000172643FC4C0>, <Food.Food object at 0x00000172643FC520>, <Food.Food object at 0x00000172643FC580>, <Food.Food object at 0x00000172643FC5E0>, <Food.Food object at 0x00000172643FC640>, <Food.Food object at 0x00000172643FC6A0>, <Food.Food object at 0x00000172643FC700>, <Food.Food object at 0x00000172643FC760>, <Food.Food object at 0x00000172643FC7C0>, <Food.Food object at 0x00000172643FC820>, <Food.Food object at 0x00000172643FC880>, <Food.Food object at 0x00000172643FC8E0>, <Food.Food object at 0x00000172643FC940>, <Food.Food object at 0x00000172643FC9A0>, <Food.Food object at 0x00000172643FCA00>, <Food.Food object at 0x00000172643FCA60>, <Food.Food object at 0x00000172643FCAC0>, <Food.Food object at 0x00000172643FCB20>, <Food.Food object at 0x00000172643FCB80>, <Food.Food object at 0x00000172643FCBE0>, <Food.Food object at 0x00000172643FCC40>, <Food.Food object at 0x00000172643FCCA0>, <Food.Food object at 0x00000172643FCD00>, <Food.Food object at 0x00000172643FCD60>, <Food.Food object at 0x00000172643FCDC0>, <Food.Food object at 0x00000172643FCE20>, <Food.Food object at 0x00000172643FCE80>, <Food.Food object at 0x00000172643FCEE0>, <Food.Food object at 0x00000172643FCF40>]
+
+Testing Array to queue
+Q:[<Food.Food object at 0x00000172643FD030>, <Food.Food object at 0x00000172643FCFA0>, <Food.Food object at 0x0000017264057C70>, <Food.Food object at 0x00000172643FC070>, <Food.Food object at 0x00000172643FC0D0>, <Food.Food object at 0x00000172643FC130>, <Food.Food object at 0x00000172643FC190>, <Food.Food object at 0x00000172643FC1F0>, <Food.Food object at 0x00000172643FC250>, <Food.Food object at 0x00000172643FC2B0>, <Food.Food object at 0x00000172643FC310>, <Food.Food object at 0x00000172643FC370>, <Food.Food object at 0x00000172643FC3D0>, <Food.Food object at 0x00000172643FC430>, <Food.Food object at 0x00000172643FC490>, <Food.Food object at 0x00000172643FC4F0>, <Food.Food object at 0x00000172643FC550>, <Food.Food object at 0x00000172643FC5B0>, <Food.Food object at 0x00000172643FC610>, <Food.Food object at 0x00000172643FC670>, <Food.Food object at 0x00000172643FC6D0>, <Food.Food object at 0x00000172643FC730>, <Food.Food object at 0x00000172643FC790>, <Food.Food object at 0x00000172643FC7F0>, <Food.Food object at 0x00000172643FC850>, <Food.Food object at 0x00000172643FC8B0>, <Food.Food object at 0x00000172643FC910>, <Food.Food object at 0x00000172643FC970>, <Food.Food object at 0x00000172643FC9D0>, <Food.Food object at 0x00000172643FCA30>, <Food.Food object at 0x00000172643FCA90>, <Food.Food object at 0x00000172643FCAF0>, <Food.Food object at 0x00000172643FCB50>, <Food.Food object at 0x00000172643FCBB0>, <Food.Food object at 0x00000172643FCC10>, <Food.Food object at 0x00000172643FCC70>, <Food.Food object at 0x00000172643FCCD0>, <Food.Food object at 0x00000172643FCD30>, <Food.Food object at 0x00000172643FCD90>, <Food.Food object at 0x00000172643FCDF0>, <Food.Food object at 0x00000172643FCE50>, <Food.Food object at 0x00000172643FCEB0>, <Food.Food object at 0x00000172643FCF10>]
+Array:[]
+
+Testing Queue to array
+Q:[]
+Array:[<Food.Food object at 0x00000172643FC550>, <Food.Food object at 0x00000172643FCFA0>, <Food.Food object at 0x00000172643FC190>, <Food.Food object at 0x00000172643FC2B0>, <Food.Food object at 0x00000172643FC370>, <Food.Food object at 0x00000172643FC6D0>, <Food.Food object at 0x00000172643FCD90>, <Food.Food object at 0x00000172643FCEB0>, <Food.Food object at 0x00000172643FCF10>, <Food.Food object at 0x00000172643FC130>, <Food.Food object at 0x00000172643FC3D0>, <Food.Food object at 0x00000172643FC910>, <Food.Food object at 0x00000172643FCAF0>, <Food.Food object at 0x00000172643FCB50>, <Food.Food object at 0x00000172643FCC70>, <Food.Food object at 0x00000172643FCCD0>, <Food.Food object at 0x00000172643FC490>, <Food.Food object at 0x00000172643FC8B0>, <Food.Food object at 0x00000172643FCBB0>, <Food.Food object at 0x00000172643FCA90>, <Food.Food object at 0x00000172643FC430>, <Food.Food object at 0x00000172643FD030>, <Food.Food object at 0x00000172643FC670>, <Food.Food object at 0x0000017264057C70>, <Food.Food object at 0x00000172643FC0D0>, <Food.Food object at 0x00000172643FC250>, <Food.Food object at 0x00000172643FC310>, <Food.Food object at 0x00000172643FC4F0>, <Food.Food object at 0x00000172643FC5B0>, <Food.Food object at 0x00000172643FC7F0>, <Food.Food object at 0x00000172643FC9D0>, <Food.Food object at 0x00000172643FCA30>, <Food.Food object at 0x00000172643FCC10>, <Food.Food object at 0x00000172643FCD30>, <Food.Food object at 0x00000172643FCDF0>, <Food.Food object at 0x00000172643FCE50>, <Food.Food object at 0x00000172643FC730>, <Food.Food object at 0x00000172643FC790>, <Food.Food object at 0x00000172643FC850>, <Food.Food object at 0x00000172643FC970>, <Food.Food object at 0x00000172643FC1F0>, <Food.Food object at 0x00000172643FC070>, <Food.Food object at 0x00000172643FC610>]
+Testing queue test method
+Testing for is_empty method: True
+Testing for insert method
+Testing for is_empty method: False
+Testing for peek method: 1
+Testing for remove method:1
+Testing for len method: 2
+------------------------------------------------------------------------

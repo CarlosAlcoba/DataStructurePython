@@ -1,0 +1,73 @@
+"""
+-------------------------------------------------------
+[program description]
+-------------------------------------------------------
+Author:  Carlos Henrique Alcoba Pinto
+ID:      169044230
+Email:   alco4230@mylaurier.ca
+__updated__ = "2023-07-06"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+Test for is_empty method: True
+
+Test for insert method:
+
+Test for is_empty method: False
+
+Test for remove method:
+
+Test for is_empty method: False
+
+Test for count method: 0
+
+Test for append method: None
+
+Test for index method: -1
+
+Test for find method: None
+
+Test for max method: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:  135
+
+Test for min method: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:  135
+
+-------------------------------------------------------
+t02
+Test for is_empty method: True
+
+Test for insert method:
+
+Test for is_empty method: False
+
+Test for remove method:
+
+Test for is_empty method: False
+
+Test for count method: 0
+
+Test for append method: None
+
+Test for index method: -1
+
+Test for find method: None
+
+Test for max method: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:  135
+
+Test for min method: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:  135
+
+-------------------------------------------------------
+
+-------------------------------------------------------
