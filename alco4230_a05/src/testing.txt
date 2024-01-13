@@ -1,0 +1,84 @@
+"""
+-------------------------------------------------------
+[program description]
+-------------------------------------------------------
+Author:  Carlos Henrique Alcoba Pinto
+ID:      169044230
+Email:   alco4230@mylaurier.ca
+__updated__ = "2023-06-15"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+testing __eq__: True
+testing append: 3
+testing __eq__: False
+testing clean method:
+[1, 2, 2, 3, 4, 4, 5, 5]
+[1, 2, 3, 4, 5]
+testing combine method:
+[1, 2, 3, 4, 5, 3]
+testing prepend: 3
+testing intersection method:
+[3]
+testing remove_front method:
+[2, 3, 4, 5, 3]
+testing remove many method:
+[2, 4, 5]
+Testing split method:
+[2, 4]
+[5]
+Testing split alt method:
+[1, 3, 5]
+[2, 4]
+testing union method:
+[2, 4, 1, 3, 5]
+testing getitem method: 1
+
+-------------------------------------------------------
+t02
+a = [1, 1, 3, 4, 5]
+b = [6, 7, 8, 9]
+Testing for __contains__ method: Contains 3: True
+
+Testing for __eq__ between list a and b: False
+
+Testing for __getitem__: 4)
+
+Testing for count: 1 in a = 2
+
+Testing for clean: a = [1, 3, 4, 5]
+
+Testing for find:6 in a = None
+
+Testing for index: index of 3 in a = 1
+
+source1 = [10, 11]
+source2 = [12, 11]
+Testing for intersection: a = [1, 3, 4, 5, 11]
+
+Testing for max and min in b: Max: 9, Min:6
+
+Testing for peek method in a: 1
+
+Testing for remove: a = [3, 4, 5, 11]
+
+Testing for remove front: b = [7, 8, 9]
+
+Testing for insert: a = [3, 4, 5, 11, 11]
+
+Testing for remove_many: a = [3, 4, 5]
+
+Testing for split:
+target1 = [3, 4], target2 = [5]
+
+Testing for split_alt:
+target1 = [8], target2 = [7, 9]
+
+Testing for union: a = [10, 11, 12]
+
+Testing for split_key: key = 11
+target1 = [10], target2 = [11, 12]
+
+-------------------------------------------------------
+-------------------------------------------------------
